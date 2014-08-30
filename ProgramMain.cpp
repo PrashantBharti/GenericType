@@ -6,6 +6,7 @@ int main(int argc, char *argv[])
 {
 	GENERICTYPE gentype;
 	gentype = 1;
+	GENERICTYPE gentypeDup = gentype;
 	int a = gentype.GetInt();
 	bool b = gentype.GetBool();
 	gentype = "Prashant";

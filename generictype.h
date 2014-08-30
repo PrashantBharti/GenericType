@@ -17,7 +17,7 @@ public:
 	GENERICTYPE(int iValue_);
 	GENERICTYPE(double dValue_);
 	GENERICTYPE(char *strValue_);
-	GENERICTYPE(GENERICTYPE &generictype);
+	GENERICTYPE(const GENERICTYPE &generictype);
 	~GENERICTYPE(void);
 
 public:
